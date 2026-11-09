@@ -2,7 +2,13 @@
 
 This is the back-end server for the Code Café application.
 
-Run with `npm start`
+Run with `npm start`, or in Docker:
+
+```bash
+docker build -t code-cafe-backend . && docker run --rm -p 3030:3030 code-cafe-backend
+```
+
+The frontend repo's `bin/dev` builds and runs it for you.
 
 ## Available Endpoints
 
